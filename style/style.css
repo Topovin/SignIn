@@ -15,7 +15,8 @@
     width: 100px;
     margin-left: 22.5px;
     height: 30px;
-
+    background-color: rgb(214, 233, 47);
+    opacity: 0.9;
     
 }
 .email-login {
@@ -24,4 +25,37 @@
     margin-left: 20px;
     margin-top: 15px;
     border-radius: 10px;
+}
+.password-login {
+    position: relative;
+    max-width: 100px;
+    margin-left: 20px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+.signin {
+    position: relative;
+    width: 80px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 32.5px;
+    border-radius: 10px;
+    background-color: lemonchiffon;
+}
+.signin:hover {
+    background-color: rgb(226, 208, 48);
+    transition: 1s;
+}
+.lg {
+    position: relative;
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 32.5px;
+    border-radius: 10px;
+    background-color: lemonchiffon;  
+}
+.lg:hover {
+    background-color: rgb(226, 208, 48);
+    transition: 1s;
 }
