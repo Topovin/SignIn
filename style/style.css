@@ -1,0 +1,27 @@
+.login {
+    height: 225px;
+    width: 150px;
+    background-color: blueviolet;
+    margin-left: auto;
+    border-radius: 20px;
+}
+#log { 
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 22.5px;
+    height: 30px;
+
+    
+}
+.email-login {
+    position: relative;
+    max-width: 100px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
