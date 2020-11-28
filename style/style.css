@@ -1,11 +1,11 @@
 .login {
     height: 250px;
     width: 150px;
-    background-color: blueviolet;
+    background: linear-gradient(60deg, rgba(0, 0, 0, 0.541) 50%, white 50%);
     margin-left: auto;
     border-radius: 20px;
     margin-top: 50px;
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(0, 0, 0);
 }
 #log { 
     text-align: center;
@@ -17,8 +17,7 @@
     width: 100px;
     margin-left: 22.5px;
     height: 30px;
-    background-color: rgb(214, 233, 47);
-    opacity: 0.9;
+    background-color: rgb(158, 161, 118);
 }
 .email-login {
     position: relative;
@@ -44,7 +43,7 @@ form{
     margin-top: 20px;
     margin-left: 32.5px;
     border-radius: 10px;
-    background-color: lemonchiffon;
+    background-color: white;
 }
 .signin:hover {
     background-color: rgb(226, 208, 48);
@@ -57,9 +56,73 @@ form{
     margin-top: 10px;
     margin-left: 32.5px;
     border-radius: 10px;
-    background-color: lemonchiffon;  
+    background-color: white;  
 }
 .lg:hover {
     background-color: rgb(226, 208, 48);
+    transition: 1s;
+}
+.sign {
+    width: 1000px;
+    height: 700px;
+    background: linear-gradient(35deg, rgb(63, 63, 63) 50%, rgb(158, 158, 158) 50%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+#si {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    border: 3px solid black;
+    max-width: 150px;
+    border-radius: 20px;
+}
+.ford {
+    text-align: center;
+}
+.emai {
+    width:250px;
+    height: 20px;
+    margin-left: -235px;
+    border-radius: 5px;    
+}
+.pass {
+    position: relative;
+    margin-top: 10px;
+    width:250px;
+    height: 20px;
+    margin-left: -135px;
+    border-radius: 5px;
+}
+.cpass{
+    position: relative;
+    margin-top: 10px;
+    width:250px;
+    height: 20px;
+    margin-left: -35px;
+    border-radius: 5px;
+}
+.TN {
+    position: relative;
+    margin-top: 10px;
+    width:250px;
+    height: 20px;
+    margin-left: 65px;
+    border-radius: 5px;
+}
+.cbut {
+    position: relative;
+    margin-top: 150px;
+    width:250px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+.cbut:hover {
+    background-color: rgb(255, 219, 74);
     transition: 1s;
 }
